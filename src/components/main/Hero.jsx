@@ -4,7 +4,7 @@ import Proyects from "./Proyects"
 
 const Hero = () => {
     return(
-        <main>
+        <main className="container">
             <Resumen />
             <Proyects />
             <AboutMe />

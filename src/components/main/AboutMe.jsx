@@ -4,8 +4,8 @@ const AboutMe = () => {
     return(
         <div className="container m-auto">
             <div className="row">
+                <h2 className="text-left"><i className="bi bi-person-gear"></i> Sobre Mi</h2>
                 <div className="col-8">
-                    <h2 className="text-left">Sobre Mi</h2>
                     <p className="text-left">
                         Me llamo Batasar Benitez, pero mis amigos me dicen Balti o Baltu. 
                         <span className="text-warning">Empecé en la "programación" a mitad del 2023 porque estaba aburrido. </span> 

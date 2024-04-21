@@ -6,18 +6,17 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-/* *::-webkit-scrollbar{
-    background: #15141a;
-    width: 6px;
-}
-*::-webkit-scrollbar-thumb {
-    background: black;
-    width: 5px;
-    border-radius: 6px;
-    opacity: 0.6;
-} */
 
-body{
-    /* background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%); */
+body {
     background-color: #15141a;
+}
+
+#ul__footer > a:hover {
+    transform: scale(1.7);
+    color: #ffc107;
+}
+
+#ul__footer > a > i:hover {
+    transform: scale(1.7);
+    color: #ffc107;
 }

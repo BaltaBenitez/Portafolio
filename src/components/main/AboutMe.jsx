@@ -2,7 +2,7 @@ import hero2 from '../../assets/hero2.jpg'
 
 const AboutMe = () => {
     return(
-        <div className="container m-auto">
+        <div id='sobreMi' className="container m-auto">
             <h2 className="text-left"><i className="bi bi-person-gear"></i> Sobre Mi</h2>
             <div className="row">
                 <div className="col-8">

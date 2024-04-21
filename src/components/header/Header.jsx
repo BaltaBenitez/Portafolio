@@ -4,9 +4,9 @@ const Header = () =>{
             <div className="container-fluid bg-dark">
                 <div className="row">
                     <div className="col d-flex justify-content-center">
-                        <a className="nav-link p-3 text-light">PROYECTS</a>
-                        <a className="nav-link p-3 text-light">ABOUT ME</a>
-                        <a className="nav-link p-3 text-light">CONTAC</a>
+                        <a href="#proyectos" className="nav-link p-3 text-light">PROYECTOS</a>
+                        <a href="#sobreMi" className="nav-link p-3 text-light">SOBRE MI</a>
+                        <a href="#contacto" className="nav-link p-3 text-light">CONTACTO</a>
                     </div>
                 </div>
             </div>

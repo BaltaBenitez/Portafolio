@@ -10,7 +10,7 @@ const Proyects = () => {
     const redbullGit = 'https://github.com/BaltaBenitez/49970-Rjs.git'
 
     return(
-        <div className="container my-4">
+        <div id='proyectos' className="container my-5">
             <h2><i className="bi bi-code-slash"></i> Proyectos</h2>
             <div className="row">
                 <div className="col my-3 d-md-flex flex-column flex-sm-row justify-content-center justify-content-md-center align-items-center">

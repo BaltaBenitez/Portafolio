@@ -5,7 +5,6 @@ import Hero from './components/main/Hero'
 
 function App() {
   const socialLinks = {
-    linkedIn: '',
     gitHub: 'https://github.com/BaltaBenitez',
     correo: 'baltaarex363@gmail.com',
   }

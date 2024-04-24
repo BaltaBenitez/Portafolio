@@ -11,6 +11,19 @@ body {
     background-color: #15141a;
 }
 
+.pink-2049:hover {
+    /* color: #932f8c; */
+    color: #ffc107;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
 #ul__footer > a:hover {
     transform: scale(1.7);
     color: #ffc107;

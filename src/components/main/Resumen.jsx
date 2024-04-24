@@ -3,8 +3,8 @@ import hero1 from '../../assets/hero1.jpg'
 const Resumen = () =>  {
     return(
         <div className="container my-4">
-            <div className="d-md-flex flex-row-reverse">
-                <div className="mx-auto">
+            <div className="d-md-flex">
+                <div className='mx-auto text-center'>
                     <img src={hero1} alt='selfie' width={80} className="rounded-5"/>
                 </div>
                 <div className='mx-auto'>

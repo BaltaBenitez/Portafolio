@@ -5,7 +5,7 @@ const Resumen = () =>  {
         <div className="container my-4">
             <div className="d-md-flex">
                 <div className='mx-auto text-center'>
-                    <img src={hero1} alt='selfie' width={80} className="rounded-5"/>
+                    <img src={hero1} alt='selfie' width={75} className="rounded-5 rounded-circle"/>
                 </div>
                 <div className='mx-auto'>
                     <h1>Holaa, soy<span className='text-warning'> Baltii</span></h1>

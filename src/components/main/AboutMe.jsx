@@ -3,8 +3,8 @@ import hero2 from '../../assets/hero2.jpg'
 
 const AboutMe = () => {
     return(
-        <div id='sobreMi' className="container my-4">
-            <h2 className="text-left"><i className="bi bi-person-gear"></i> Sobre Mi</h2>
+        <div id='sobreMi' className="container mt-5">
+            <h2 className="mt-5 text-left"><i className="bi bi-person-gear"></i> Sobre Mi</h2>
             <div className="d-md-flex flex-row-reverse">
                 <div className='m-auto text-center'>
                     <img src={hero2} width={90} className='rounded-5' />

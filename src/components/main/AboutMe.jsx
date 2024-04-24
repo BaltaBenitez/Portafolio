@@ -23,7 +23,7 @@ const AboutMe = () => {
                     </p>
                     <p>
                         En marzo de 2024 termine el bootcamp de <span className="text-warning">Desarrollo Frontend React</span>. 
-                        Donde aprendi, <span className="text-warning">el manejo de rutas utilizando Firebase</span>, y comprendi el uso del virtual DOM mediante los componentes de React JS.
+                        Durante mi aprendizaje, adquirí habilidades en el <span className="text-warning">manejo de rutas utilizando Firebase</span>, y también dominé el uso del virtual DOM a través de los componentes de React JS.
                     </p>
                 </div>
             </div>

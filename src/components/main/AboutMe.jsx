@@ -4,7 +4,8 @@ import hero2 from '../../assets/hero2.jpg'
 const AboutMe = () => {
     return(
         <div id='sobreMi' className="container mt-5">
-            <h2 className="mt-5 text-left"><i className="bi bi-person-gear"></i> Sobre Mi</h2>
+            <div className="row">
+            <h2 className="mt-5"><i className="bi bi-person-gear"></i> Sobre Mi</h2>
             <div className="d-md-flex flex-row-reverse">
                 <div className='m-auto text-center'>
                     <img src={hero2} width={90} className='rounded-5' />
@@ -26,6 +27,7 @@ const AboutMe = () => {
                         Donde aprendi, <span className="text-warning">el manejo de rutas utilizando Firebase</span>, y comprendi el uso del virtual DOM mediante los componentes de React JS.
                     </p>
                 </div>
+            </div>
             </div>
         </div>
     )

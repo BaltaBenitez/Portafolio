@@ -3,6 +3,7 @@ import { useState } from "react";
 const Header = () =>{
     const [collapse, setCollapse] = useState(true)
     const titleBb = 'benitez'
+    
     const scrollTop = () => {
         window.scrollTo({
             top: -1,

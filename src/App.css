@@ -24,6 +24,10 @@ body {
     box-shadow: none !important;
 }
 
+.nav-item a:hover {
+    color: #ffc107 !important;
+}
+
 #ul__footer > a:hover {
     transform: scale(1.7);
     color: #ffc107;

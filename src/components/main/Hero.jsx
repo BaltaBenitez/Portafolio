@@ -2,10 +2,10 @@ import AboutMe from "./AboutMe"
 import Resumen from "./Resumen"
 import Proyects from "./Proyects"
 
-const Hero = () => {
+const Hero = ( {props} ) => {
     return(
         <main className="container">
-            <Resumen />
+            <Resumen prop={props}/>
             <Proyects />
             <AboutMe />
         </main>

@@ -14,7 +14,7 @@ const Header = () =>{
     return(
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div className="container">
-                <i onClick={scrollTop}className="mx-auto fs-5 fst-italic"><strong className="title-b">{titleBb.toUpperCase()}</strong></i>
+                <h1 onClick={scrollTop} className="mx-auto fs-5 fst-italic"><strong className="title-b">{titleBb.toUpperCase()}</strong></h1>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onClick={() => setCollapse(!collapse)}>
                 {collapse ? (<i className="bi bi-list"></i>) : (<i className="bi bi-x-lg"></i>)}
                 </button>

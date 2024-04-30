@@ -5,7 +5,7 @@ import Proyects from "./Proyects"
 const Hero = ( {props} ) => {
     return(
         <main className="container">
-            <Resumen prop={props}/>
+            <Resumen prop={props.linkedIn}/>
             <Proyects />
             <AboutMe />
         </main>

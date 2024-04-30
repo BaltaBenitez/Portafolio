@@ -13,7 +13,7 @@ const Proyects = () => {
     return(
         <div id='proyectos' className="container mt-5">
             <div className="row">
-            <h2 className='mt-5'><i className="bi bi-code-slash"></i> Proyectos</h2>
+            <h2 className='mt-5'><i className="bi bi-code-slash px-2"></i> Proyectos</h2>
                 <div className="col d-md-flex flex-column flex-sm-row justify-content-center justify-content-md-center align-items-center">
                     <div className='text-center'>
                         <a href={redBullURl} target="_blank" rel="noopener noreferrer"><img src={pageRedBull} alt="" width={350}/></a>

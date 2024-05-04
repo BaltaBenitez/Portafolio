@@ -1,5 +1,5 @@
-import pageArena from '../../assets/page-arena.png'
-import pageRedBull from '../../assets/page-redbull.png'
+import pageArena from '../../assets/page-arena.webp'
+import pageRedBull from '../../assets/page-redbull.webp'
 
 const Proyects = () => {
     const arenaURl = 'https://arenasportgym.netlify.app/'

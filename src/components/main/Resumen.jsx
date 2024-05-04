@@ -1,4 +1,4 @@
-import hero1 from '../../assets/hero1.jpg'
+import hero1 from '../../assets/hero1.webp'
 
 const Resumen = ( {prop} ) =>  {
     const status0 = 'disponible'
